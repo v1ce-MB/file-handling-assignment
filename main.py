@@ -6,6 +6,13 @@ file.write(" curious by nature, Alex loves to ask questions and dive deep into h
 file.close()
 
 
+
 file = open("Dennis", "w")
 file.write("Introducing Dennis, a driven 11th grader with a strong passion for physics Dennis is known for his inquisitive nature and problem-solving skills. His favorite color is orange, which he feels represents creativity and enthusiasm. Outside of academics, he enjoys playing soccer with his friends and experimenting with new science projects. Dennis is excited to take on the challenges of this year and deepen his understanding of the world around him!")
 file.close()
+# file = open("Dennis", "r")
+# for x in file:
+#     print(x)
+file = open("John", "r")
+for x in file:
+    print(x)
